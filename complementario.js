@@ -47,6 +47,10 @@ while((nombre != "") && (edad != "") && (dni != "")){
             }
             break; 
 
+        case "4":
+            alert(turno);
+            break;    
+
         default:
             alert("Ha ocurrido un error, intente más tarde.");
             break;      
