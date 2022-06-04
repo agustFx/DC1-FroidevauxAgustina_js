@@ -16,7 +16,7 @@ while((nombre != "") && (edad != "") && (dni != "")){
             break;
 
         case "2":
-            let turnoDenegado = prompt("Lo sentimos, " + nombre + ". No nos quedan turnos disponibles para oftalmolgía, ¿te gustaría sacar turno con alguna otra especialidad? \n SI | NO");
+            turnoDenegado = prompt("Lo sentimos, " + nombre + ". No nos quedan turnos disponibles para oftalmolgía, ¿te gustaría sacar turno con alguna otra especialidad? \n SI | NO"); //// Ajustes
             if(turnoDenegado.toUpperCase() != "SI"){
                 alert("Gracias por visitarnos, esperamos verte pronto!")
             } else if(turnoDenegado.toUpperCase() != "NO"){
